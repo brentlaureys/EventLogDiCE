@@ -6,9 +6,9 @@ from parameters.enum import (
 
 @dataclass
 class BPI2012Parameters(object):
-    file_path: str = "./data/event_logs/BPI_Challenge_2012.xes"
+    file_path: str = "C:/Users/Brent Laureys/Desktop/Thesis/mimicel.xes"
 
-    preprocessed_folder_path: str = "./data/preprocessed/BPI_Challenge_2012_with_resource"
+    preprocessed_folder_path: str = "./data/preprocessed/mimcel_preprocessed"
 
     include_types: List[BPI2012ActivityType] = field(
         default_factory=lambda: [BPI2012ActivityType.A, BPI2012ActivityType.O, BPI2012ActivityType.W])
@@ -22,9 +22,9 @@ class BPI2012Parameters(object):
 
 @dataclass
 class BPI2012ScenarioParameters(object):
-    file_path: str = "./data/event_logs/BPI_Challenge_2012.xes"
+    file_path: str = "C:/Users/Brent Laureys/Desktop/Thesis/mimicel.xes"
 
-    preprocessed_folder_path: str = "./data/preprocessed/BPI_Challenge_2012_scenario"
+    preprocessed_folder_path: str = "./data/preprocessed/mimicel_preprocessed"
 
     include_types: List[BPI2012ActivityType] = field(
         default_factory=lambda: [BPI2012ActivityType.A])

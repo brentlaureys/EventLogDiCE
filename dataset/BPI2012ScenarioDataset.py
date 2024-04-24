@@ -1,5 +1,6 @@
+import tensorflow.python.keras
 from parameters.dataset import BPI2012ScenarioParameters
-from tensorflow.python.keras.preprocessing.sequence import pad_sequences
+#from tensorflow.python.keras.preprocessing.sequence import pad_sequences
 from utils.print import print_block
 import json
 from utils.file import file_exists

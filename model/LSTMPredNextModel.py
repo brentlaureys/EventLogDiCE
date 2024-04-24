@@ -1,10 +1,11 @@
 import json
+import tensorflow.python.keras
 from tensorflow.python import keras
 
 from tensorflow.python.keras import models
-from tensorflow.python.keras.api._v2.keras import layers
-from tensorflow.python.keras.layers import dense_attention
-from tensorflow.python.keras.layers.core import Dense
+#from tensorflow.python.keras.api._v2.keras import layers
+#from tensorflow.python.keras.layers import dense_attention
+#from tensorflow.python.keras.layers.core import Dense
 from utils.print import print_block
 from utils.save import load_parameters, save_parameters_json
 from datetime import datetime
